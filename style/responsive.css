@@ -1,18 +1,112 @@
-@media screen and (max-width:700px){
+/* smarthphone */
+@media screen and (max-width: 480px){
+
+    header .container{
+        justify-content: left;
+ 
+      }
+
+    header .logo{        
+        margin-bottom: 10px;
+        font-family: 'Helvetica', Times;
+        font-size: 30px;
+    }
+
+    header nav a{
+        text-decoration: none;
+        color: #AAA;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .cover{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .cover .container{
+        width: 100%;
+    }
+
+    .cover .title {
+        font-size: 20px;
+    }
+     
+
+    .cover .description{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 12px;
+    }   
+
+    .button{
+        margin-right: 0px;
+        font-size: 12px;
+    }  
+
+}
+
+/*tablets e smathphones de segunda geração*/
+@media screen and (max-width:768px){
     header .container{
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
       }
 
-      .botao{
+      header .logo{        
+        margin-bottom: 10px;
+        font-family: 'Helvetica', Times;
+        font-size: 30px;
+    }
+
+      .button{
           margin-top: 5px;
           width: 190px;
           height: 60px;
       }
+
+      .cover .description{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 14px;
+        width: 70%;
+    
+    }   
 }
 
-@media screen and (min-width:1000px){
-    .descricao{
-        width: 50%;
-    }
+/*notebooks */
+@media screen and (min-width:1024px){
+
+    .cover{
+        font-size: 16px;
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover.jpg');
+    
+        height: 500px;
+        background-size:cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }    
+  
+}
+
+/*desktops*/
+@media screen and (min-width:1380px){
+    .cover{
+        font-size: 16px;
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover.jpg');
+    
+        height: 700px;
+        background-size:cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }    
+  
 }
