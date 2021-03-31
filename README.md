@@ -2,6 +2,10 @@
 
 É um teste que, através de três regras básicas, analisa se um filme traz personagens mulheres fortes e participativas.As regras surgiram em 1985, quando a cartunista Alison Bechdel fez uma tirinha ironizando os filmes da indústria Hollywoodiana que em sua maioria representa as mulheres de forma estereotipada e clichê. Ou seja, questiona se a participação feminina faz diferença no enredo de filmes. 
 
+
+(https://www.hypeness.com.br/1/2019/03/10467032_844362278970765_2609190709078982102_o.jpg)
+
+
 As regras para analisar qualquer trama são:
 
 - O filme tem duas ou mais personagens com nomes?
