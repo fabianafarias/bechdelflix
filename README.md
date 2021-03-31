@@ -9,22 +9,22 @@
 ## - O assunto da conversa é algo que não seja homem ou assuntos relacionados a romances?
 
 
-Fontes:
-https://www.aicinema.com.br/teste-de-bechdel-bechdel-test-o-que-e-e-para-que-serve/
-https://filmow.com/listas/series-que-passam-bem-no-teste-de-bechdel-l58948/
-https://www.themoviedb.org/
-
-
 ## Essas mesmas regras podem ser aplicadas também a outras produções, como as séries. 
 
 ## Esse projeto é uma adaptação do projeto clone-netflix que fiz durante o bootcamp da DIO. Aqui eu listei algumas séries que passam no teste de Bechdel.
 
 ## Tecnologias utilizadas:
 
-- HTML
-- CSS
-- JQuery
-- Javascript
+### - HTML
+### - CSS
+### - JQuery
+### - Javascript
+
+#### Fontes:
+#### https://www.aicinema.com.br/teste-de-bechdel-bechdel-test-o-que-e-e-para-que-serve/
+#### https://filmow.com/listas/series-que-passam-bem-no-teste-de-bechdel-l58948/
+#### https://www.themoviedb.org/
+
 
 
 
