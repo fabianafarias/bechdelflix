@@ -10,7 +10,7 @@ As regras para analisar qualquer trama são:
 
 Essas mesmas regras podem ser aplicadas também a outras produções, como as séries. 
 
-### Esse projeto é uma adaptação do projeto clone-netflix que fiz durante o bootcamp da DIO. Aqui eu listei algumas séries que passam no teste de Bechdel.
+### Esse projeto é uma adaptação do projeto clone-netflix(https://github.com/fabianafarias/netflix-clone) que fiz durante o bootcamp da DIO. Aqui eu listei algumas séries que passam no teste de Bechdel.
 
 #### Tecnologias utilizadas:
 
