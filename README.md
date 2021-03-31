@@ -12,14 +12,14 @@ Essas mesmas regras podem ser aplicadas também a outras produções, como as s�
 
 ### Esse projeto é uma adaptação do projeto clone-netflix que fiz durante o bootcamp da DIO. Aqui eu listei algumas séries que passam no teste de Bechdel.
 
-####Tecnologias utilizadas:
+#### Tecnologias utilizadas:
 
 - HTML
 - CSS
 - JQuery
 - Javascript
 
-####Fontes:
+#### Fontes:
 - https://www.aicinema.com.br/teste-de-bechdel-bechdel-test-o-que-e-e-para-que-serve/
 - https://filmow.com/listas/series-que-passam-bem-no-teste-de-bechdel-l58948/
 - https://www.themoviedb.org/
