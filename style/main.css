@@ -51,7 +51,7 @@ header nav a:hover{
 /* producao-destaque */
 .cover{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('https://github.com/fabianafarias/bechdelflix/blob/main/img/cover.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover.jpg');
 
     height: 400px;
     background-size:cover;
