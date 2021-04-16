@@ -1,0 +1,152 @@
+.cover-series{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover-series.jpg');
+
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cover-series .description{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.cover-series .title{
+    margin-top: 15%;
+    font-size: 40px;   
+    font-family: 'Trebuchet MS', Arial, sans-serif; 
+}
+
+.cover-series .container{
+    width: 70%;
+}
+
+.carousel-itens .box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* Responsividade */
+
+/* smarthphone */
+@media screen and (max-width: 480px){
+
+    header .container{
+        justify-content: left;
+ 
+      }
+
+    header .logo{        
+        margin-bottom: 10px;
+        font-family: 'Helvetica', Times;
+        font-size: 30px;
+    }
+
+    header nav a{
+        text-decoration: none;
+        color: #AAA;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+     .cover-series{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+     .cover-series .container{
+        width: 100%;
+    }
+
+    .cover-series .title {
+        font-size: 20px;
+    }
+     
+
+    .cover-series.description{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 12px;
+    } 
+
+    .button{
+        margin-right: 0px;
+        font-size: 12px;
+    }  
+
+}
+
+/*tablets e smathphones de segunda geração*/
+@media screen and (max-width:768px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+
+      header .logo{        
+        margin-bottom: 10px;
+        font-family: 'Helvetica', Times;
+        font-size: 30px;
+    }
+
+      .button{
+          margin-top: 5px;
+          width: 190px;
+          height: 60px;
+      }
+
+      .cover-series .description{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 14px;
+        width: 70%;
+    
+    } 
+}
+
+/*notebooks */
+@media screen and (min-width:1024px){
+
+      .cover-series{
+        font-size: 16px;
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover-series.jpg');
+    
+        height: 500px;
+        background-size:cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }    
+  
+  
+}
+
+/*desktops*/
+@media screen and (min-width:1380px){
+    
+    .cover-series{
+        font-size: 16px;
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover-series.jpg');
+    
+        height: 700px;
+        background-size:cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }  
+  
+}

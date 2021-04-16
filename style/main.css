@@ -49,33 +49,6 @@ header nav a:hover{
     color: #fff;
 }
 
-/* producao-destaque */
-.cover{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover.jpg');
-
-    height: 400px;
-    background-size:cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.cover .description{
-    margin-bottom: 40px;
-    margin-top: 10px;
-    font-size: 18px;
-    width: 50%;
-}
-
-.cover .title{
-    margin-top: 15%;
-    font-size: 40px;   
-    font-family: 'Trebuchet MS', Arial, sans-serif;
- 
-}
 
 .button{
     background-color: rgba(0,0,0,.50);
@@ -103,19 +76,12 @@ header nav a:hover{
     margin-left: 30px;
 }
 
-.cover .container{
-    width: 70%;
-}
 
 .carousel-itens{
     margin-top: 5px;
 }
 
-.carousel-itens .box-serie{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
+
 
 
 

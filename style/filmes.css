@@ -1,3 +1,36 @@
+.cover-filmes{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover-filmes.jpg');
+
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cover-filmes .description{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.cover-filmes .title{
+    margin-top: 15%;
+    font-size: 40px;   
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+ 
+}
+
+.cover-filmes .container{
+    width: 70%;
+}
+
+/* Responsividade */
+
 /* smarthphone */
 @media screen and (max-width: 480px){
 
@@ -19,28 +52,31 @@
         margin-right: 10px;
     }
 
-    .cover{
+    .cover-filmes{
         display: flex;
         flex-direction: row;
         justify-content: left;
     }
 
-    .cover .container{
+ 
+    .cover-filmes .container{
         width: 100%;
     }
 
-    .cover .title {
+ 
+    .cover-filmes .title {
         font-size: 20px;
     }
-     
 
-    .cover .description{
+    
+
+    .cover-filmes .description{
         margin-bottom: 20px;
         margin-top: 10px;
         font-size: 12px;
     }   
 
-    .button{
+     .button{
         margin-right: 0px;
         font-size: 12px;
     }  
@@ -67,21 +103,22 @@
           height: 60px;
       }
 
-      .cover .description{
+      .cover-filmes .description{
         margin-bottom: 30px;
         margin-top: 10px;
         font-size: 14px;
         width: 70%;
     
     }   
+
 }
 
 /*notebooks */
 @media screen and (min-width:1024px){
 
-    .cover{
+    .cover-filmes{
         font-size: 16px;
-        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover.jpg');
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover-filmes.jpg');
     
         height: 500px;
         background-size:cover;
@@ -90,15 +127,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-    }    
+    }     
+     
   
 }
 
 /*desktops*/
 @media screen and (min-width:1380px){
-    .cover{
+    .cover-filmes{
         font-size: 16px;
-        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover.jpg');
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/cover-filmes.jpg');
     
         height: 700px;
         background-size:cover;
@@ -108,5 +146,6 @@
         justify-content: center;
         align-items: flex-start;
     }    
-  
+
+      
 }
