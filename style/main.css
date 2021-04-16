@@ -107,11 +107,11 @@ header nav a:hover{
     width: 70%;
 }
 
-.carousel-series{
+.carousel-itens{
     margin-top: 5px;
 }
 
-.carousel-series .box-serie{
+.carousel-itens .box-serie{
     height: 100%;
     width: 100%;
     display: block;
